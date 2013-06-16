@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08BB98C917556DDF006E8EFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08BB98C817556DDF006E8EFA /* UIKit.framework */; };
+		08BB98CB17556DDF006E8EFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08BB98CA17556DDF006E8EFA /* Foundation.framework */; };
+		08BB98CD17556DDF006E8EFA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08BB98CC17556DDF006E8EFA /* CoreGraphics.framework */; };
+		08BB98D317556DDF006E8EFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08BB98D117556DDF006E8EFA /* InfoPlist.strings */; };
+		08BB98D517556DDF006E8EFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BB98D417556DDF006E8EFA /* main.m */; };
+		08BB98D917556DDF006E8EFA /* SuperCardAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BB98D817556DDF006E8EFA /* SuperCardAppDelegate.m */; };
+		08BB98DB17556DDF006E8EFA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 08BB98DA17556DDF006E8EFA /* Default.png */; };
+		08BB98DD17556DDF006E8EFA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08BB98DC17556DDF006E8EFA /* Default@2x.png */; };
+		08BB98DF17556DDF006E8EFA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08BB98DE17556DDF006E8EFA /* Default-568h@2x.png */; };
+		08BB98E217556DDF006E8EFA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08BB98E017556DDF006E8EFA /* MainStoryboard.storyboard */; };
+		08BB98E517556DDF006E8EFA /* SuperCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BB98E417556DDF006E8EFA /* SuperCardViewController.m */; };
+		08BB98ED17556E0F006E8EFA /* PlayingCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BB98EC17556E0F006E8EFA /* PlayingCardView.m */; };
+		08C64A64175609AB00FCE7D6 /* cardback.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08C64A63175609AB00FCE7D6 /* cardback.jpg */; };
+		08C64A7E17560DF000FCE7D6 /* J♠.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08C64A6617560DF000FCE7D6 /* J♠.jpg */; };
+		08C64A7F17560DF000FCE7D6 /* J♠@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08C64A6717560DF000FCE7D6 /* J♠@2x.jpg */; };
+		08C64A8017560DF000FCE7D6 /* J♣.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08C64A6817560DF000FCE7D6 /* J♣.jpg */; };
+		08C64A8117560DF000FCE7D6 /* J♣@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08C64A6917560DF000FCE7D6 /* J♣@2x.jpg */; };
+		08C64A8217560DF000FCE7D6 /* J♥.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08C64A6A17560DF000FCE7D6 /* J♥.jpg */; };
+		08C64A8317560DF000FCE7D6 /* J♥@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08C64A6B17560DF000FCE7D6 /* J♥@2x.jpg */; };
+		08C64A8417560DF000FCE7D6 /* J♦.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08C64A6C17560DF000FCE7D6 /* J♦.jpg */; };
+		08C64A8517560DF000FCE7D6 /* J♦@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08C64A6D17560DF000FCE7D6 /* J♦@2x.jpg */; };
+		08C64A8617560DF000FCE7D6 /* K♠.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08C64A6E17560DF000FCE7D6 /* K♠.jpg */; };
+		08C64A8717560DF000FCE7D6 /* K♠@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08C64A6F17560DF000FCE7D6 /* K♠@2x.jpg */; };
+		08C64A8817560DF000FCE7D6 /* K♣.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08C64A7017560DF000FCE7D6 /* K♣.jpg */; };
+		08C64A8917560DF000FCE7D6 /* K♣@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08C64A7117560DF000FCE7D6 /* K♣@2x.jpg */; };
+		08C64A8A17560DF000FCE7D6 /* K♥.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08C64A7217560DF000FCE7D6 /* K♥.jpg */; };
+		08C64A8B17560DF000FCE7D6 /* K♥@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08C64A7317560DF000FCE7D6 /* K♥@2x.jpg */; };
+		08C64A8C17560DF000FCE7D6 /* K♦.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08C64A7417560DF000FCE7D6 /* K♦.jpg */; };
+		08C64A8D17560DF000FCE7D6 /* K♦@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08C64A7517560DF000FCE7D6 /* K♦@2x.jpg */; };
+		08C64A8E17560DF000FCE7D6 /* Q♠.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08C64A7617560DF000FCE7D6 /* Q♠.jpg */; };
+		08C64A8F17560DF000FCE7D6 /* Q♠@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08C64A7717560DF000FCE7D6 /* Q♠@2x.jpg */; };
+		08C64A9017560DF000FCE7D6 /* Q♣.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08C64A7817560DF000FCE7D6 /* Q♣.jpg */; };
+		08C64A9117560DF000FCE7D6 /* Q♣@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08C64A7917560DF000FCE7D6 /* Q♣@2x.jpg */; };
+		08C64A9217560DF000FCE7D6 /* Q♥.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08C64A7A17560DF000FCE7D6 /* Q♥.jpg */; };
+		08C64A9317560DF000FCE7D6 /* Q♥@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08C64A7B17560DF000FCE7D6 /* Q♥@2x.jpg */; };
+		08C64A9417560DF000FCE7D6 /* Q♦.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08C64A7C17560DF000FCE7D6 /* Q♦.jpg */; };
+		08C64A9517560DF000FCE7D6 /* Q♦@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08C64A7D17560DF000FCE7D6 /* Q♦@2x.jpg */; };
+		08C64AA11756208600FCE7D6 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C64A981756208600FCE7D6 /* Card.m */; };
+		08C64AA21756208600FCE7D6 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C64A9A1756208600FCE7D6 /* CardMatchingGame.m */; };
+		08C64AA31756208600FCE7D6 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C64A9C1756208600FCE7D6 /* Deck.m */; };
+		08C64AA41756208600FCE7D6 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C64A9E1756208600FCE7D6 /* PlayingCard.m */; };
+		08C64AA51756208600FCE7D6 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C64AA01756208600FCE7D6 /* PlayingCardDeck.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08BB98C517556DDF006E8EFA /* SuperCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08BB98C817556DDF006E8EFA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		08BB98CA17556DDF006E8EFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		08BB98CC17556DDF006E8EFA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		08BB98D017556DDF006E8EFA /* SuperCard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SuperCard-Info.plist"; sourceTree = "<group>"; };
+		08BB98D217556DDF006E8EFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		08BB98D417556DDF006E8EFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08BB98D617556DDF006E8EFA /* SuperCard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SuperCard-Prefix.pch"; sourceTree = "<group>"; };
+		08BB98D717556DDF006E8EFA /* SuperCardAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperCardAppDelegate.h; sourceTree = "<group>"; };
+		08BB98D817556DDF006E8EFA /* SuperCardAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperCardAppDelegate.m; sourceTree = "<group>"; };
+		08BB98DA17556DDF006E8EFA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		08BB98DC17556DDF006E8EFA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		08BB98DE17556DDF006E8EFA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		08BB98E117556DDF006E8EFA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		08BB98E317556DDF006E8EFA /* SuperCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperCardViewController.h; sourceTree = "<group>"; };
+		08BB98E417556DDF006E8EFA /* SuperCardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperCardViewController.m; sourceTree = "<group>"; };
+		08BB98EB17556E0F006E8EFA /* PlayingCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardView.h; sourceTree = "<group>"; };
+		08BB98EC17556E0F006E8EFA /* PlayingCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardView.m; sourceTree = "<group>"; };
+		08C64A63175609AB00FCE7D6 /* cardback.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cardback.jpg; sourceTree = "<group>"; };
+		08C64A6617560DF000FCE7D6 /* J♠.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "J♠.jpg"; sourceTree = "<group>"; };
+		08C64A6717560DF000FCE7D6 /* J♠@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "J♠@2x.jpg"; sourceTree = "<group>"; };
+		08C64A6817560DF000FCE7D6 /* J♣.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "J♣.jpg"; sourceTree = "<group>"; };
+		08C64A6917560DF000FCE7D6 /* J♣@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "J♣@2x.jpg"; sourceTree = "<group>"; };
+		08C64A6A17560DF000FCE7D6 /* J♥.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "J♥.jpg"; sourceTree = "<group>"; };
+		08C64A6B17560DF000FCE7D6 /* J♥@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "J♥@2x.jpg"; sourceTree = "<group>"; };
+		08C64A6C17560DF000FCE7D6 /* J♦.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "J♦.jpg"; sourceTree = "<group>"; };
+		08C64A6D17560DF000FCE7D6 /* J♦@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "J♦@2x.jpg"; sourceTree = "<group>"; };
+		08C64A6E17560DF000FCE7D6 /* K♠.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "K♠.jpg"; sourceTree = "<group>"; };
+		08C64A6F17560DF000FCE7D6 /* K♠@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "K♠@2x.jpg"; sourceTree = "<group>"; };
+		08C64A7017560DF000FCE7D6 /* K♣.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "K♣.jpg"; sourceTree = "<group>"; };
+		08C64A7117560DF000FCE7D6 /* K♣@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "K♣@2x.jpg"; sourceTree = "<group>"; };
+		08C64A7217560DF000FCE7D6 /* K♥.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "K♥.jpg"; sourceTree = "<group>"; };
+		08C64A7317560DF000FCE7D6 /* K♥@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "K♥@2x.jpg"; sourceTree = "<group>"; };
+		08C64A7417560DF000FCE7D6 /* K♦.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "K♦.jpg"; sourceTree = "<group>"; };
+		08C64A7517560DF000FCE7D6 /* K♦@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "K♦@2x.jpg"; sourceTree = "<group>"; };
+		08C64A7617560DF000FCE7D6 /* Q♠.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Q♠.jpg"; sourceTree = "<group>"; };
+		08C64A7717560DF000FCE7D6 /* Q♠@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Q♠@2x.jpg"; sourceTree = "<group>"; };
+		08C64A7817560DF000FCE7D6 /* Q♣.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Q♣.jpg"; sourceTree = "<group>"; };
+		08C64A7917560DF000FCE7D6 /* Q♣@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Q♣@2x.jpg"; sourceTree = "<group>"; };
+		08C64A7A17560DF000FCE7D6 /* Q♥.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Q♥.jpg"; sourceTree = "<group>"; };
+		08C64A7B17560DF000FCE7D6 /* Q♥@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Q♥@2x.jpg"; sourceTree = "<group>"; };
+		08C64A7C17560DF000FCE7D6 /* Q♦.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Q♦.jpg"; sourceTree = "<group>"; };
+		08C64A7D17560DF000FCE7D6 /* Q♦@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Q♦@2x.jpg"; sourceTree = "<group>"; };
+		08C64A971756208600FCE7D6 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		08C64A981756208600FCE7D6 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		08C64A991756208600FCE7D6 /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardMatchingGame.h; sourceTree = "<group>"; };
+		08C64A9A1756208600FCE7D6 /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardMatchingGame.m; sourceTree = "<group>"; };
+		08C64A9B1756208600FCE7D6 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		08C64A9C1756208600FCE7D6 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		08C64A9D1756208600FCE7D6 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		08C64A9E1756208600FCE7D6 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		08C64A9F1756208600FCE7D6 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		08C64AA01756208600FCE7D6 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08BB98C217556DDE006E8EFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08BB98C917556DDF006E8EFA /* UIKit.framework in Frameworks */,
+				08BB98CB17556DDF006E8EFA /* Foundation.framework in Frameworks */,
+				08BB98CD17556DDF006E8EFA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08BB98BC17556DDE006E8EFA = {
+			isa = PBXGroup;
+			children = (
+				08BB98CE17556DDF006E8EFA /* SuperCard */,
+				08BB98C717556DDF006E8EFA /* Frameworks */,
+				08BB98C617556DDF006E8EFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08BB98C617556DDF006E8EFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08BB98C517556DDF006E8EFA /* SuperCard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08BB98C717556DDF006E8EFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08BB98C817556DDF006E8EFA /* UIKit.framework */,
+				08BB98CA17556DDF006E8EFA /* Foundation.framework */,
+				08BB98CC17556DDF006E8EFA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08BB98CE17556DDF006E8EFA /* SuperCard */ = {
+			isa = PBXGroup;
+			children = (
+				08C64A961756208600FCE7D6 /* Model */,
+				08BB98D717556DDF006E8EFA /* SuperCardAppDelegate.h */,
+				08BB98D817556DDF006E8EFA /* SuperCardAppDelegate.m */,
+				08BB98E017556DDF006E8EFA /* MainStoryboard.storyboard */,
+				08BB98E317556DDF006E8EFA /* SuperCardViewController.h */,
+				08BB98E417556DDF006E8EFA /* SuperCardViewController.m */,
+				08BB98EB17556E0F006E8EFA /* PlayingCardView.h */,
+				08BB98EC17556E0F006E8EFA /* PlayingCardView.m */,
+				08BB98CF17556DDF006E8EFA /* Supporting Files */,
+			);
+			path = SuperCard;
+			sourceTree = "<group>";
+		};
+		08BB98CF17556DDF006E8EFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08C64A6517560DF000FCE7D6 /* Face Card Images */,
+				08C64A63175609AB00FCE7D6 /* cardback.jpg */,
+				08BB98D017556DDF006E8EFA /* SuperCard-Info.plist */,
+				08BB98D117556DDF006E8EFA /* InfoPlist.strings */,
+				08BB98D417556DDF006E8EFA /* main.m */,
+				08BB98D617556DDF006E8EFA /* SuperCard-Prefix.pch */,
+				08BB98DA17556DDF006E8EFA /* Default.png */,
+				08BB98DC17556DDF006E8EFA /* Default@2x.png */,
+				08BB98DE17556DDF006E8EFA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08C64A6517560DF000FCE7D6 /* Face Card Images */ = {
+			isa = PBXGroup;
+			children = (
+				08C64A6617560DF000FCE7D6 /* J♠.jpg */,
+				08C64A6717560DF000FCE7D6 /* J♠@2x.jpg */,
+				08C64A6817560DF000FCE7D6 /* J♣.jpg */,
+				08C64A6917560DF000FCE7D6 /* J♣@2x.jpg */,
+				08C64A6A17560DF000FCE7D6 /* J♥.jpg */,
+				08C64A6B17560DF000FCE7D6 /* J♥@2x.jpg */,
+				08C64A6C17560DF000FCE7D6 /* J♦.jpg */,
+				08C64A6D17560DF000FCE7D6 /* J♦@2x.jpg */,
+				08C64A6E17560DF000FCE7D6 /* K♠.jpg */,
+				08C64A6F17560DF000FCE7D6 /* K♠@2x.jpg */,
+				08C64A7017560DF000FCE7D6 /* K♣.jpg */,
+				08C64A7117560DF000FCE7D6 /* K♣@2x.jpg */,
+				08C64A7217560DF000FCE7D6 /* K♥.jpg */,
+				08C64A7317560DF000FCE7D6 /* K♥@2x.jpg */,
+				08C64A7417560DF000FCE7D6 /* K♦.jpg */,
+				08C64A7517560DF000FCE7D6 /* K♦@2x.jpg */,
+				08C64A7617560DF000FCE7D6 /* Q♠.jpg */,
+				08C64A7717560DF000FCE7D6 /* Q♠@2x.jpg */,
+				08C64A7817560DF000FCE7D6 /* Q♣.jpg */,
+				08C64A7917560DF000FCE7D6 /* Q♣@2x.jpg */,
+				08C64A7A17560DF000FCE7D6 /* Q♥.jpg */,
+				08C64A7B17560DF000FCE7D6 /* Q♥@2x.jpg */,
+				08C64A7C17560DF000FCE7D6 /* Q♦.jpg */,
+				08C64A7D17560DF000FCE7D6 /* Q♦@2x.jpg */,
+			);
+			path = "Face Card Images";
+			sourceTree = "<group>";
+		};
+		08C64A961756208600FCE7D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				08C64A971756208600FCE7D6 /* Card.h */,
+				08C64A981756208600FCE7D6 /* Card.m */,
+				08C64A991756208600FCE7D6 /* CardMatchingGame.h */,
+				08C64A9A1756208600FCE7D6 /* CardMatchingGame.m */,
+				08C64A9B1756208600FCE7D6 /* Deck.h */,
+				08C64A9C1756208600FCE7D6 /* Deck.m */,
+				08C64A9D1756208600FCE7D6 /* PlayingCard.h */,
+				08C64A9E1756208600FCE7D6 /* PlayingCard.m */,
+				08C64A9F1756208600FCE7D6 /* PlayingCardDeck.h */,
+				08C64AA01756208600FCE7D6 /* PlayingCardDeck.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08BB98C417556DDE006E8EFA /* SuperCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08BB98E817556DDF006E8EFA /* Build configuration list for PBXNativeTarget "SuperCard" */;
+			buildPhases = (
+				08BB98C117556DDE006E8EFA /* Sources */,
+				08BB98C217556DDE006E8EFA /* Frameworks */,
+				08BB98C317556DDE006E8EFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperCard;
+			productName = SuperCard;
+			productReference = 08BB98C517556DDF006E8EFA /* SuperCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08BB98BD17556DDE006E8EFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SuperCard;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "GN Resound";
+			};
+			buildConfigurationList = 08BB98C017556DDE006E8EFA /* Build configuration list for PBXProject "SuperCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 08BB98BC17556DDE006E8EFA;
+			productRefGroup = 08BB98C617556DDF006E8EFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08BB98C417556DDE006E8EFA /* SuperCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08BB98C317556DDE006E8EFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08BB98D317556DDF006E8EFA /* InfoPlist.strings in Resources */,
+				08BB98DB17556DDF006E8EFA /* Default.png in Resources */,
+				08BB98DD17556DDF006E8EFA /* Default@2x.png in Resources */,
+				08BB98DF17556DDF006E8EFA /* Default-568h@2x.png in Resources */,
+				08BB98E217556DDF006E8EFA /* MainStoryboard.storyboard in Resources */,
+				08C64A64175609AB00FCE7D6 /* cardback.jpg in Resources */,
+				08C64A7E17560DF000FCE7D6 /* J♠.jpg in Resources */,
+				08C64A7F17560DF000FCE7D6 /* J♠@2x.jpg in Resources */,
+				08C64A8017560DF000FCE7D6 /* J♣.jpg in Resources */,
+				08C64A8117560DF000FCE7D6 /* J♣@2x.jpg in Resources */,
+				08C64A8217560DF000FCE7D6 /* J♥.jpg in Resources */,
+				08C64A8317560DF000FCE7D6 /* J♥@2x.jpg in Resources */,
+				08C64A8417560DF000FCE7D6 /* J♦.jpg in Resources */,
+				08C64A8517560DF000FCE7D6 /* J♦@2x.jpg in Resources */,
+				08C64A8617560DF000FCE7D6 /* K♠.jpg in Resources */,
+				08C64A8717560DF000FCE7D6 /* K♠@2x.jpg in Resources */,
+				08C64A8817560DF000FCE7D6 /* K♣.jpg in Resources */,
+				08C64A8917560DF000FCE7D6 /* K♣@2x.jpg in Resources */,
+				08C64A8A17560DF000FCE7D6 /* K♥.jpg in Resources */,
+				08C64A8B17560DF000FCE7D6 /* K♥@2x.jpg in Resources */,
+				08C64A8C17560DF000FCE7D6 /* K♦.jpg in Resources */,
+				08C64A8D17560DF000FCE7D6 /* K♦@2x.jpg in Resources */,
+				08C64A8E17560DF000FCE7D6 /* Q♠.jpg in Resources */,
+				08C64A8F17560DF000FCE7D6 /* Q♠@2x.jpg in Resources */,
+				08C64A9017560DF000FCE7D6 /* Q♣.jpg in Resources */,
+				08C64A9117560DF000FCE7D6 /* Q♣@2x.jpg in Resources */,
+				08C64A9217560DF000FCE7D6 /* Q♥.jpg in Resources */,
+				08C64A9317560DF000FCE7D6 /* Q♥@2x.jpg in Resources */,
+				08C64A9417560DF000FCE7D6 /* Q♦.jpg in Resources */,
+				08C64A9517560DF000FCE7D6 /* Q♦@2x.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08BB98C117556DDE006E8EFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08BB98D517556DDF006E8EFA /* main.m in Sources */,
+				08BB98D917556DDF006E8EFA /* SuperCardAppDelegate.m in Sources */,
+				08BB98E517556DDF006E8EFA /* SuperCardViewController.m in Sources */,
+				08BB98ED17556E0F006E8EFA /* PlayingCardView.m in Sources */,
+				08C64AA11756208600FCE7D6 /* Card.m in Sources */,
+				08C64AA21756208600FCE7D6 /* CardMatchingGame.m in Sources */,
+				08C64AA31756208600FCE7D6 /* Deck.m in Sources */,
+				08C64AA41756208600FCE7D6 /* PlayingCard.m in Sources */,
+				08C64AA51756208600FCE7D6 /* PlayingCardDeck.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		08BB98D117556DDF006E8EFA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08BB98D217556DDF006E8EFA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		08BB98E017556DDF006E8EFA /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08BB98E117556DDF006E8EFA /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08BB98E617556DDF006E8EFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		08BB98E717556DDF006E8EFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08BB98E917556DDF006E8EFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuperCard/SuperCard-Prefix.pch";
+				INFOPLIST_FILE = "SuperCard/SuperCard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		08BB98EA17556DDF006E8EFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuperCard/SuperCard-Prefix.pch";
+				INFOPLIST_FILE = "SuperCard/SuperCard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08BB98C017556DDE006E8EFA /* Build configuration list for PBXProject "SuperCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08BB98E617556DDF006E8EFA /* Debug */,
+				08BB98E717556DDF006E8EFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08BB98E817556DDF006E8EFA /* Build configuration list for PBXNativeTarget "SuperCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08BB98E917556DDF006E8EFA /* Debug */,
+				08BB98EA17556DDF006E8EFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08BB98BD17556DDE006E8EFA /* Project object */;
+}
