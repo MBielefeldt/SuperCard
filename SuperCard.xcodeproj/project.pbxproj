@@ -257,6 +257,11 @@
 				CLASSPREFIX = SuperCard;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "GN Resound";
+				TargetAttributes = {
+					08BB98C417556DDE006E8EFA = {
+						DevelopmentTeam = 8AQ2Q5KM77;
+					};
+				};
 			};
 			buildConfigurationList = 08BB98C017556DDE006E8EFA /* Build configuration list for PBXProject "SuperCard" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -413,6 +418,7 @@
 		08BB98E917556DDF006E8EFA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SuperCard/SuperCard-Prefix.pch";
 				INFOPLIST_FILE = "SuperCard/SuperCard-Info.plist";
@@ -424,6 +430,7 @@
 		08BB98EA17556DDF006E8EFA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SuperCard/SuperCard-Prefix.pch";
 				INFOPLIST_FILE = "SuperCard/SuperCard-Info.plist";
